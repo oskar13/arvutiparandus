@@ -1,0 +1,116 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+* {
+	color: #333333;
+}
+
+body {
+background-image: radial-gradient(ellipse farthest-corner at center top, #D1FFFD 0%, #4F8FEF 100%);
+}
+
+
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+h1, h2, h3, h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	color: #6BAAD6;
+}
+
+article {
+	margin-left: 1em;
+}
+
+article p{
+	margin-left: 0.5em;
+}
+
+header h1 {
+	margin: 0;
+	font-size: 2em;
+	display: inline-block;
+	float: left;
+}
+header h2 {
+	margin: 0;
+	font-size: 0.95em;
+	clear: both;
+}
+
+header.width-container{
+	margin-top: 2em;
+}
+
+footer.width-container{
+	margin-bottom: 2em;
+}
+
+#header-login {
+	display: inline-block;
+	float: right;
+}
+
+.width-container {
+	max-width: 978px;
+	margin: 0 5%;
+	width: 100%;
+	margin: 0 auto;
+	padding: 1em;
+	background: #fff;
+}
+
+.img-right{
+	float: right;
+}
+
+.img-left{
+	float: left;
+}
+
+.clear{
+	clear: both;
+}
+
+#login-box {
+	margin: 4em auto 0;
+	padding: 1em;
+	background: rgba(255,255,255,0.7);
+	border-radius: 7px;
+	border: 1px solid rgba(200,200,200,0.8);
+	display: table;
+}
+
+#login-box dl{
+	margin: 0;
+}
+
+input[type=submit] {
+	background-image: linear-gradient(to bottom, #C0EFFC 0%, #6ACDFB 100%);
+    border: 1px solid #73A4E7;
+    border-radius: 3px;
+    box-shadow: 0 0 2px #FFFFFF inset;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.9);
+    margin-top: 10px;
+}
+
+input[type=text],input[type=password] {
+	border: 1px solid #d0d0d0;
+	border-radius: 3px;
+	color: #626262;
+}

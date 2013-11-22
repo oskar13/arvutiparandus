@@ -1,0 +1,14 @@
+CREATE TABLE parandused (
+id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+kirjeldus VARCHAR(200),
+tehnik VARCHAR(50),
+kommentaar VARCHAR(200),
+valmis INT
+);
+
+CREATE TABLE kasutajad (
+id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+knimi VARCHAR(50),
+paroolir2si VARCHAR(50),
+roll VARCHAR(200)
+);
